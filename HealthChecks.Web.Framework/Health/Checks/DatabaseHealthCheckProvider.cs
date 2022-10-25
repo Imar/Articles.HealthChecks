@@ -15,7 +15,7 @@ namespace HealthChecks.Web.Framework.Health.Checks
       var result = new HealthCheckItemResult(nameof(DatabaseHealthCheckProvider), SortOrder, "Checks the database", "Checks whether the main database can be accessed.");
       try
       {
-        // Uncomment code below abd update it to match your DB context or make a direct SQL connection.
+        // Uncomment code below and update it to match your DB context or make a direct SQL connection.
         //var context = new MyContext();
         //var item = await context.SomeSet.FirstAsync();
         //if (item != null)
